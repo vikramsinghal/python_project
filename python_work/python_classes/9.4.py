@@ -19,6 +19,8 @@ class resturant():
 
     def increment_number_served(self, number):
         self.number_served += number
+        print(f"Total number of customer served today {self.number_served}")
+
 
 my_resturant = resturant("Cool Resturant!", "American")
 my_resturant.describe_resturant()
@@ -27,5 +29,4 @@ my_resturant.open_resturant()
 my_resturant.update_number(112)
 my_resturant.read_number()
 
-my_resturant.increment_number_served(13)
-my_resturant.read_number()
+my_resturant.increment_number_served(1)
