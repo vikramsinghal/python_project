@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-import time
-some_num = int((time.time() * 1000))
-print(some_num)
-=======
 class person():
     """docstring for ."""
 
@@ -28,4 +23,3 @@ information = person("Matthew Perry", 34, "New York")
 information.get_name()
 information.get_age()
 information.get_city()
->>>>>>> 7b3d584cbae30ce6ef1b326b3d5e925b2eab001e
